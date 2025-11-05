@@ -1,8 +1,8 @@
-# Repo Roadmap - AI-Powered Open Source Onboarding
+# 🗺️ Repo Roadmap - AI-Powered Open Source Onboarding
 
 An intelligent agent that helps new contributors navigate unfamiliar open-source repositories by generating personalized onboarding roadmaps synced to Google Calendar.
 
-## Problem Statement
+## 🎯 Problem Statement
 
 New open-source contributors and CS students struggle with:
 
@@ -11,7 +11,7 @@ New open-source contributors and CS students struggle with:
 - **Lack of personalization**: No context for skill level or learning style
 - **No actionable plan**: Static recommendations don't translate into scheduled work
 
-## Solution
+## ✨ Solution
 
 Repo Roadmap provides:
 
@@ -20,7 +20,7 @@ Repo Roadmap provides:
 3. **Custom roadmaps** - 3-5 step plans tailored to your skill level
 4. **Calendar integration** - Sync steps to Google Calendar with time estimates
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 | Layer         | Technology                         | Why                                 |
 | ------------- | ---------------------------------- | ----------------------------------- |
@@ -34,7 +34,7 @@ Repo Roadmap provides:
 | Integrations  | GitHub API + Google Calendar       | Repo data + task scheduling         |
 | Deploy        | Vercel                             | Easy Next.js deployment             |
 
-## Features
+## ⚡ Features
 
 ### 1. Skill Profile Intake
 
@@ -67,7 +67,7 @@ Repo Roadmap provides:
 
 - Create calendar events for each roadmap step
 
-## Setup Instructions
+## 🚀 Setup Instructions
 
 ### Prerequisites
 
@@ -137,7 +137,7 @@ This will create all required tables including users, repos, issues, embeddings,
 4. Set **Authorization callback URL** to `http://localhost:3000/api/auth/callback/github`
 5. Copy the Client ID and Client Secret to your `.env.local`
 
-### 5. Run the Development Server
+### ▶️ 5. Run the Development Server
 
 ```bash
 npm run dev
@@ -145,21 +145,11 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000)
 
-## Future Enhancements
-
-- [ ] Full Google Calendar OAuth integration
-- [ ] Notion checklist integration
-- [ ] Learning from user feedback (upvote/downvote issues)
-- [ ] Multi-repo roadmaps
-- [ ] Progress tracking and notifications
-- [ ] Community roadmap sharing
-- [ ] PR review assistance
-
-## License
+## 📄 License
 
 MIT
 
-## Acknowledgments
+## 📄 Acknowledgments
 
 Built with:
 
